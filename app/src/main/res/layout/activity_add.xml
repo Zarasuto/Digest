@@ -1,0 +1,349 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/textviewSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_textview_add"
+                android:padding="16dp"
+                android:text="Recipe Name:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Enter Name Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_textview_add"
+                android:padding="16dp"
+                android:text="Pick Your Image Here:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spnrImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/images"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_textview_add"
+                android:padding="16dp"
+                android:text="Recipe Description:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Recipe Description Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_textview_add"
+                android:padding="16dp"
+                android:text="Enter Ingredients below:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtIngredient1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtIngredient13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Ingredient Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_textview_add"
+                android:padding="16dp"
+                android:text="Enter Steps Below:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtStep1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/txtStep13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Step Here"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:text="Add"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "714241061205",
+    "firebase_url": "https://hciproject-e1aef-default-rtdb.firebaseio.com",
+    "project_id": "hciproject-e1aef",
+    "storage_bucket": "hciproject-e1aef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714241061205:android:eb25f348e48dcbd7277fdc",
+        "android_client_info": {
+          "package_name": "com.example.finalsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714241061205-hafm3lot1qe71lhov2m9osf0iqrb5mpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbidUGL0or8hE5Qcaet70ZL_cR6RDpwlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714241061205-hafm3lot1qe71lhov2m9osf0iqrb5mpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

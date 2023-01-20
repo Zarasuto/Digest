@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Digest</string>
+    <string name="recipeName">Recipe Name</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+    <string name="description">Description</string>
+    <array name="images">
+        <item>Main Course</item>
+        <item>Appetizer</item>
+        <item>Dessert</item>
+    </array>
+</resources>
